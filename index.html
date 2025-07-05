@@ -2,387 +2,397 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <!-- 添加视口元标签 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome-pyecharts</title>
-                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
-            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/china.js"></script>
-
+    <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+    <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/china.js"></script>
 </head>
 <body >
-    <div id="5130ee06091c4b43a1215282f5fe662a" class="chart-container" style="width:1200px; height:800px; "></div>
+    <!-- 使用百分比设置图表容器的宽度和高度 -->
+    <div id="5130ee06091c4b43a1215282f5fe662a" class="chart-container" style="width:100%; height:80vh; "></div>
     <script>
         var chart_5130ee06091c4b43a1215282f5fe662a = echarts.init(
             document.getElementById('5130ee06091c4b43a1215282f5fe662a'), 'light', {renderer: 'canvas'});
         var option_5130ee06091c4b43a1215282f5fe662a = {
-    "backgroundColor": "#F5F5F5",
-    "animation": true,
-    "animationThreshold": 2000,
-    "animationDuration": 1000,
-    "animationEasing": "cubicOut",
-    "animationDelay": 0,
-    "animationDurationUpdate": 300,
-    "animationEasingUpdate": "cubicOut",
-    "animationDelayUpdate": 0,
-    "aria": {
-        "enabled": false
-    },
-    "series": [
-        {
-            "type": "map",
-            "name": "\u7537\u5a18\u5206\u5e03\u503c",
-            "label": {
-                "show": true,
-                "color": "#333",
-                "margin": 8,
-                "fontSize": 12
+            "backgroundColor": "#F5F5F5",
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "aria": {
+                "enabled": false
             },
-            "map": "china",
-            "data": [
+            "series": [
                 {
-                    "name": "\u4e0a\u6d77\u5e02",
-                    "value": 60
-                },
-                {
-                    "name": "\u4e91\u5357\u7701",
-                    "value": 25
-                },
-                {
-                    "name": "\u5185\u8499\u53e4\u81ea\u6cbb\u533a",
-                    "value": 7
-                },
-                {
-                    "name": "\u5317\u4eac\u5e02",
-                    "value": 32
-                },
-                {
-                    "name": "\u5409\u6797\u7701",
-                    "value": 15
-                },
-                {
-                    "name": "\u56db\u5ddd\u7701",
-                    "value": 117
-                },
-                {
-                    "name": "\u5929\u6d25\u5e02",
-                    "value": 27
-                },
-                {
-                    "name": "\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a",
-                    "value": 3
-                },
-                {
-                    "name": "\u5b89\u5fbd\u7701",
-                    "value": 49
-                },
-                {
-                    "name": "\u5c71\u4e1c\u7701",
-                    "value": 66
-                },
-                {
-                    "name": "\u5c71\u897f\u7701",
-                    "value": 7
-                },
-                {
-                    "name": "\u5e7f\u4e1c\u7701",
-                    "value": 116
-                },
-                {
-                    "name": "\u5e7f\u897f\u58ee\u65cf\u81ea\u6cbb\u533a",
-                    "value": 21
-                },
-                {
-                    "name": "\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a",
-                    "value": 7
-                },
-                {
-                    "name": "\u6c5f\u82cf\u7701",
-                    "value": 91
-                },
-                {
-                    "name": "\u6c5f\u897f\u7701",
-                    "value": 31
-                },
-                {
-                    "name": "\u6cb3\u5317\u7701",
-                    "value": 22
-                },
-                {
-                    "name": "\u6cb3\u5357\u7701",
-                    "value": 43
-                },
-                {
-                    "name": "\u6d59\u6c5f\u7701",
-                    "value": 132
-                },
-                {
-                    "name": "\u6d77\u5357\u7701",
-                    "value": 12
-                },
-                {
-                    "name": "\u6e56\u5317\u7701",
-                    "value": 73
-                },
-                {
-                    "name": "\u6e56\u5357\u7701",
-                    "value": 66
-                },
-                {
-                    "name": "\u7518\u8083\u7701",
-                    "value": 4
-                },
-                {
-                    "name": "\u798f\u5efa\u7701",
-                    "value": 46
-                },
-                {
-                    "name": "\u897f\u85cf\u81ea\u6cbb\u533a",
-                    "value": 1
-                },
-                {
-                    "name": "\u8d35\u5dde\u7701",
-                    "value": 19
-                },
-                {
-                    "name": "\u8fbd\u5b81\u7701",
-                    "value": 39
-                },
-                {
-                    "name": "\u91cd\u5e86\u5e02",
-                    "value": 66
-                },
-                {
-                    "name": "\u9655\u897f\u7701",
-                    "value": 38
-                },
-                {
-                    "name": "\u9ed1\u9f99\u6c5f\u7701",
-                    "value": 16
+                    "type": "map",
+                    "name": "男女分布值",
+                    "label": {
+                        "show": true,
+                        "color": "#333",
+                        "margin": 8,
+                        "fontSize": 12
+                    },
+                    "map": "china",
+                    "data": [
+                        {
+                            "name": "上海市",
+                            "value": 60
+                        },
+                        {
+                            "name": "云南省",
+                            "value": 25
+                        },
+                        {
+                            "name": "内蒙古自治区",
+                            "value": 7
+                        },
+                        {
+                            "name": "北京市",
+                            "value": 32
+                        },
+                        {
+                            "name": "吉林省",
+                            "value": 15
+                        },
+                        {
+                            "name": "四川省",
+                            "value": 117
+                        },
+                        {
+                            "name": "天津市",
+                            "value": 27
+                        },
+                        {
+                            "name": "宁夏回族自治区",
+                            "value": 3
+                        },
+                        {
+                            "name": "安徽省",
+                            "value": 49
+                        },
+                        {
+                            "name": "山东省",
+                            "value": 66
+                        },
+                        {
+                            "name": "山西省",
+                            "value": 7
+                        },
+                        {
+                            "name": "广东省",
+                            "value": 116
+                        },
+                        {
+                            "name": "广西壮族自治区",
+                            "value": 21
+                        },
+                        {
+                            "name": "新疆维吾尔自治区",
+                            "value": 7
+                        },
+                        {
+                            "name": "江苏省",
+                            "value": 91
+                        },
+                        {
+                            "name": "江西省",
+                            "value": 31
+                        },
+                        {
+                            "name": "河北省",
+                            "value": 22
+                        },
+                        {
+                            "name": "河南省",
+                            "value": 43
+                        },
+                        {
+                            "name": "浙江省",
+                            "value": 132
+                        },
+                        {
+                            "name": "海南省",
+                            "value": 12
+                        },
+                        {
+                            "name": "湖北省",
+                            "value": 73
+                        },
+                        {
+                            "name": "湖南省",
+                            "value": 66
+                        },
+                        {
+                            "name": "甘肃省",
+                            "value": 4
+                        },
+                        {
+                            "name": "福建省",
+                            "value": 46
+                        },
+                        {
+                            "name": "西藏自治区",
+                            "value": 1
+                        },
+                        {
+                            "name": "贵州省",
+                            "value": 19
+                        },
+                        {
+                            "name": "辽宁省",
+                            "value": 39
+                        },
+                        {
+                            "name": "重庆市",
+                            "value": 66
+                        },
+                        {
+                            "name": "陕西省",
+                            "value": 38
+                        },
+                        {
+                            "name": "黑龙江省",
+                            "value": 16
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": false,
+                    "emphasis": {},
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
                 }
             ],
-            "roam": true,
-            "aspectScale": 0.75,
-            "nameProperty": "name",
-            "selectedMode": false,
-            "zoom": 1,
-            "zlevel": 0,
-            "z": 2,
-            "seriesLayoutBy": "column",
-            "datasetIndex": 0,
-            "mapValueCalculation": "sum",
-            "showLegendSymbol": false,
-            "emphasis": {},
-            "rippleEffect": {
-                "show": true,
-                "brushType": "stroke",
-                "scale": 2.5,
-                "period": 4
-            }
-        }
-    ],
-    "legend": [
-        {
-            "data": [
-                "\u7537\u5a18\u5206\u5e03\u503c"
+            "legend": [
+                {
+                    "data": [
+                        "男女分布值"
+                    ],
+                    "selected": {},
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14,
+                    "backgroundColor": "transparent",
+                    "borderColor": "#ccc",
+                    "borderRadius": 0,
+                    "pageButtonItemGap": 5,
+                    "pageButtonPosition": "end",
+                    "pageFormatter": "{current}/{total}",
+                    "pageIconColor": "#2f4554",
+                    "pageIconInactiveColor": "#aaa",
+                    "pageIconSize": 15,
+                    "animationDurationUpdate": 800,
+                    "selector": false,
+                    "selectorPosition": "auto",
+                    "selectorItemGap": 7,
+                    "selectorButtonGap": 10,
+                    // 调整图例的位置
+                    "right": "5%",
+                    "top": "5%"
+                }
             ],
-            "selected": {},
-            "show": true,
-            "padding": 5,
-            "itemGap": 10,
-            "itemWidth": 25,
-            "itemHeight": 14,
-            "backgroundColor": "transparent",
-            "borderColor": "#ccc",
-            "borderRadius": 0,
-            "pageButtonItemGap": 5,
-            "pageButtonPosition": "end",
-            "pageFormatter": "{current}/{total}",
-            "pageIconColor": "#2f4554",
-            "pageIconInactiveColor": "#aaa",
-            "pageIconSize": 15,
-            "animationDurationUpdate": 800,
-            "selector": false,
-            "selectorPosition": "auto",
-            "selectorItemGap": 7,
-            "selectorButtonGap": 10
-        }
-    ],
-    "tooltip": {
-        "show": true,
-        "trigger": "item",
-        "triggerOn": "mousemove|click",
-        "axisPointer": {
-            "type": "line"
-        },
-        "showContent": true,
-        "alwaysShowContent": false,
-        "showDelay": 0,
-        "hideDelay": 100,
-        "enterable": false,
-        "confine": false,
-        "appendToBody": false,
-        "transitionDuration": 0.4,
-        "formatter": "{b}<br/>\u7537\u5a18\u5206\u5e03\u503c\uff1a{c}",
-        "textStyle": {
-            "color": "#333"
-        },
-        "backgroundColor": "#FFF",
-        "borderColor": "#999",
-        "borderWidth": 0,
-        "padding": 5,
-        "order": "seriesAsc"
-    },
-    "title": [
-        {
-            "show": true,
-            "text": "\u5404\u7701\u4efd\u7537\u5a18\u5206\u5e03\u503c\u5730\u56fe",
-            "target": "blank",
-            "subtext": "\u4e0d\u540c\u989c\u8272\u6df1\u5ea6\u4ee3\u8868\u7537\u5a18\u5206\u5e03\u503c\u533a\u95f4",
-            "subtarget": "blank",
-            "padding": [
-                20,
-                0,
-                0,
-                0
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "formatter": "{b}<br/>男女分布值：{c}",
+                "textStyle": {
+                    "color": "#333"
+                },
+                "backgroundColor": "#FFF",
+                "borderColor": "#999",
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "title": [
+                {
+                    "show": true,
+                    "text": "各省份男女分布值地图",
+                    "target": "blank",
+                    "subtext": "不同颜色深度代表男女分布值区间",
+                    "subtarget": "blank",
+                    "padding": [
+                        20,
+                        0,
+                        0,
+                        0
+                    ],
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false,
+                    "textStyle": {
+                        "color": "#333",
+                        "fontWeight": "bold",
+                        "fontSize": 24
+                    },
+                    "subtextStyle": {
+                        "color": "#666",
+                        "fontSize": 16
+                    }
+                }
             ],
-            "itemGap": 10,
-            "textAlign": "auto",
-            "textVerticalAlign": "auto",
-            "triggerEvent": false,
-            "textStyle": {
-                "color": "#333",
-                "fontWeight": "bold",
-                "fontSize": 24
-            },
-            "subtextStyle": {
-                "color": "#666",
-                "fontSize": 16
-            }
-        }
-    ],
-    "toolbox": {
-        "show": true,
-        "orient": "horizontal",
-        "itemSize": 15,
-        "itemGap": 10,
-        "left": "80%",
-        "right": "5%",
-        "top": "5%",
-        "feature": {
-            "saveAsImage": {
-                "type": "png",
-                "backgroundColor": "auto",
-                "connectedBackgroundColor": "#fff",
+            "toolbox": {
                 "show": true,
-                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
-                "pixelRatio": 2
+                "orient": "horizontal",
+                "itemSize": 15,
+                "itemGap": 10,
+                // 调整工具框的位置
+                "right": "5%",
+                "bottom": "5%",
+                "feature": {
+                    "saveAsImage": {
+                        "type": "png",
+                        "backgroundColor": "auto",
+                        "connectedBackgroundColor": "#fff",
+                        "show": true,
+                        "title": "保存为图片",
+                        "pixelRatio": 2
+                    },
+                    "restore": {
+                        "show": true,
+                        "title": "还原"
+                    },
+                    "dataView": {
+                        "show": true,
+                        "title": "数据视图",
+                        "readOnly": false,
+                        "lang": [
+                            "数据视图",
+                            "关闭",
+                            "刷新"
+                        ],
+                        "backgroundColor": "#fff",
+                        "textareaColor": "#fff",
+                        "textareaBorderColor": "#333",
+                        "textColor": "#000",
+                        "buttonColor": "#c23531",
+                        "buttonTextColor": "#fff"
+                    },
+                    "dataZoom": {
+                        "show": true,
+                        "title": {
+                            "zoom": "区域缩放",
+                            "back": "区域缩放还原"
+                        },
+                        "icon": {},
+                        "filterMode": "filter"
+                    },
+                    "magicType": {
+                        "show": true,
+                        "type": [
+                            "line",
+                            "bar",
+                            "stack",
+                            "tiled"
+                        ],
+                        "title": {
+                            "line": "切换为折线图",
+                            "bar": "切换为柱状图",
+                            "stack": "切换为堆叠",
+                            "tiled": "切换为平铺"
+                        },
+                        "icon": {}
+                    }
+                }
             },
-            "restore": {
+            "visualMap": {
                 "show": true,
-                "title": "\u8fd8\u539f"
-            },
-            "dataView": {
-                "show": true,
-                "title": "\u6570\u636e\u89c6\u56fe",
-                "readOnly": false,
-                "lang": [
-                    "\u6570\u636e\u89c6\u56fe",
-                    "\u5173\u95ed",
-                    "\u5237\u65b0"
-                ],
-                "backgroundColor": "#fff",
-                "textareaColor": "#fff",
-                "textareaBorderColor": "#333",
-                "textColor": "#000",
-                "buttonColor": "#c23531",
-                "buttonTextColor": "#fff"
-            },
-            "dataZoom": {
-                "show": true,
-                "title": {
-                    "zoom": "\u533a\u57df\u7f29\u653e",
-                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
-                },
-                "icon": {},
-                "filterMode": "filter"
-            },
-            "magicType": {
-                "show": true,
-                "type": [
-                    "line",
-                    "bar",
-                    "stack",
-                    "tiled"
-                ],
-                "title": {
-                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
-                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
-                    "stack": "\u5207\u6362\u4e3a\u5806\u53e0",
-                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
-                },
-                "icon": {}
-            }
-        }
-    },
-    "visualMap": {
-        "show": true,
-        "type": "piecewise",
-        "min": 0,
-        "max": null,
-        "textStyle": {
-            "color": "#666"
-        },
-        "inRange": {
-            "color": [
-                "#FFE0F0",
-                "#FF69B4"
-            ]
-        },
-        "calculable": true,
-        "inverse": false,
-        "splitNumber": 5,
-        "hoverLink": true,
-        "orient": "vertical",
-        "left": "10%",
-        "top": "20%",
-        "padding": 5,
-        "showLabel": true,
-        "itemWidth": 20,
-        "itemHeight": 14,
-        "borderWidth": 0,
-        "pieces": [
-            {
-                "max": 10,
+                "type": "piecewise",
                 "min": 0,
-                "label": "0 - 10",
-                "color": "#FFE0F0"
-            },
-            {
-                "max": 30,
-                "min": 11,
-                "label": "11 - 30",
-                "color": "#FFB6C1"
-            },
-            {
-                "max": 60,
-                "min": 31,
-                "label": "31 - 60",
-                "color": "#FF69B4"
-            },
-            {
-                "max": 100,
-                "min": 61,
-                "label": "61 - 100",
-                "color": "#FF1493"
-            },
-            {
                 "max": null,
-                "min": 101,
-                "label": "101\u4ee5\u4e0a",
-                "color": "#C71585"
+                "textStyle": {
+                    "color": "#666"
+                },
+                "inRange": {
+                    "color": [
+                        "#FFE0F0",
+                        "#FF69B4"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "left": "5%",
+                "top": "20%",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 14,
+                "borderWidth": 0,
+                "pieces": [
+                    {
+                        "max": 10,
+                        "min": 0,
+                        "label": "0 - 10",
+                        "color": "#FFE0F0"
+                    },
+                    {
+                        "max": 30,
+                        "min": 11,
+                        "label": "11 - 30",
+                        "color": "#FFB6C1"
+                    },
+                    {
+                        "max": 60,
+                        "min": 31,
+                        "label": "31 - 60",
+                        "color": "#FF69B4"
+                    },
+                    {
+                        "max": 100,
+                        "min": 61,
+                        "label": "61 - 100",
+                        "color": "#FF1493"
+                    },
+                    {
+                        "max": null,
+                        "min": 101,
+                        "label": "101以上",
+                        "color": "#C71585"
+                    }
+                ]
             }
-        ]
-    }
-};
+        };
         chart_5130ee06091c4b43a1215282f5fe662a.setOption(option_5130ee06091c4b43a1215282f5fe662a);
+
+        // 监听窗口大小变化，重新渲染图表
+        window.addEventListener('resize', function () {
+            chart_5130ee06091c4b43a1215282f5fe662a.resize();
+        });
     </script>
 </body>
 </html>
